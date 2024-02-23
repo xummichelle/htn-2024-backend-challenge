@@ -1,5 +1,7 @@
 # Hack the North 2023 Backend Challenge Submission
 
+A REST API server using Python and Flask for working with hackathon participant data. Would have loved to dockerize the application, ran out of time! However, I'm glad to practice some complex SQL statements and learn the basics of Flask and PostgresQL! Let me know if there are any issues trying out my application, I would be happy to demo how the API works. :)
+
 ## Environment
 OS: Ubuntu
 
@@ -103,3 +105,4 @@ The response returned looks like:
     }
 ]
 ```
+
