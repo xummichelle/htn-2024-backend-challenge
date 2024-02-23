@@ -10,10 +10,6 @@ class MyDatabase():
                  host=os.getenv("HOST_NAME"), 
                  user=os.getenv("POSTGRES_USERNAME"), 
                  password=os.getenv("POSTGRES_PASSWORD")):
-        print(db)
-        print(host)
-        print(user)
-        print(password)
         self.conn = psycopg2.connect(database=db, host=host,user=user,password=password)
         self.cur = self.conn.cursor()
 
